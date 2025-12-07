@@ -1,0 +1,93 @@
+# -------------------------------
+# .NET / ASP.NET Core
+# -------------------------------
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.dll
+*.pdb
+*.mdb
+*.log
+*.db-shm
+*.db-wal
+
+# SQLite local databases
+*.db
+*.sqlite
+
+# ASP.NET Core environment files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# EF Core Migrations snapshot (optional)
+# If you want to track migrations, don't ignore.
+# Migrations/
+
+# -------------------------------
+# Build artifacts and publish
+# -------------------------------
+/**/publish/
+/**/dist/
+/**/artifacts/
+*.nuget/
+
+# -------------------------------
+# Test results
+# -------------------------------
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# -------------------------------
+# Rider / VS / VS Code
+# -------------------------------
+.vs/
+.idea/
+*.code-workspace
+
+# VS Code settings (optional)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+logs/
+
+# -------------------------------
+# Node / React / TypeScript frontend
+# -------------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+build/
+dist/
+
+# React environment variables
+.env
+.env.local
+.env.*.local
+
+# -------------------------------
+# Operating System files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Other
+# -------------------------------
+*.tmp
